@@ -4,3 +4,5 @@
 #include <fstream>
 
 using namespace std;
+int scrollingMenu();
+
