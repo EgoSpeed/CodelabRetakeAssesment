@@ -11,7 +11,9 @@ int main() { //Int main is used instead of Void main due to standard c++ requrin
 
 	cout << "Welcome to Max Korner's twitter application!"<< endl; //c "out" used to export text and endl to end the line
 	cout << "(This application uses the downloaded tweets from SampleTweets.csv)" << "\n"; // \n creates line breaks to provide easier view of text for the user
-		cout <<"\n" << "Please choose an option below using the arrow keys" << endl;
+		cout <<"\n" << "Please choose an option using the arrow keys" << endl;
+
+		Sleep(5000);
 
 
 		scrollingMenu();
